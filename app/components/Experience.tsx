@@ -12,9 +12,10 @@ export default function Experience(props: IExperienceProps) {
   return (
     <div className="flex flex-row justify-between items-center space-x-5">
       <div className="space-y-2">
-        <h2 className="font-medium">
-          {position}, {company}
-        </h2>
+        <div className="space-y-1">
+          <h2 className="font-medium">{company}</h2>
+          <h3 className="font-medium text-sm">{position}</h3>
+        </div>
         <p>{description}</p>
       </div>
       {linkedin && (
