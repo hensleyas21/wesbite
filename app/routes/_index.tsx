@@ -65,9 +65,9 @@ export default function Index() {
               github={LINKS.GITHUB_NARRO}
             />
             <Project
-              name="Kent"
+              name="Hypur"
               description="JavaScript package to bring flexible reactivity to server-side applications."
-              github={LINKS.GITHUB_KENT}
+              github={LINKS.GITHUB_HYPUR}
             />
           </section>
         </div>
