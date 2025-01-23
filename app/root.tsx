@@ -9,6 +9,7 @@ import type { LinksFunction } from "@remix-run/node";
 // Supports weights 100-900
 import "@fontsource-variable/inter";
 import "./tailwind.css";
+import Header from "./components/Header";
 
 export const links: LinksFunction = () => [];
 
@@ -22,7 +23,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        {children}
+        <main className="flex flex-col min-h-screen">
+          <div className="max-w-screen-lg md:divide-x md:space-x-10 flex md:flex-row flex-col mx-auto flex-grow md:border-r">
+            <div className="md:w-1/3 mt-7">
+              <Header />
+            </div>
+            <div className="md:w-2/3">{children}</div>
+          </div>
+        </main>
         <ScrollRestoration />
         <Scripts />
       </body>

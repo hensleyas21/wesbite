@@ -1,24 +1,19 @@
-import { GitHub } from "./Icons";
-
 interface IProjectProps {
   name: string;
   description: string;
-  github?: string;
+  github: string;
 }
 
 export default function Project(props: IProjectProps) {
   const { name, description, github } = props;
   return (
-    <div className="flex flex-row justify-between items-center space-x-5">
-      <div className="space-y-2">
-        <h2 className="font-medium">{name}</h2>
-        <p>{description}</p>
-      </div>
-      {github && (
-        <a href={github} target="_blank" rel="noopener noreferrer">
-          <GitHub className="w-5 h-5 transition-opacity" />
-        </a>
-      )}
+    <div className="p-5 border-b flex flex-row justify-between items-center space-x-5  last:border-b-0">
+      <a href={github} target="_blank" rel="noopener noreferrer">
+        <div className="space-y-2 w-full">
+          <h2 className="font-medium">{name}</h2>
+          <p>{description}</p>
+        </div>
+      </a>
     </div>
   );
 }
