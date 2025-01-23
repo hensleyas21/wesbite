@@ -60,18 +60,10 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex space-x-3">
-        <a
-          href="https://linkedin/in/liam-grossman"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={LINKS.LINKEDIN} target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5" />
         </a>
-        <a
-          href="https://github.com/LGmatrix13"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={LINKS.GITHUB} target="_blank" rel="noopener noreferrer">
           <GitHub className="w-5 h-5" />
         </a>
       </div>
