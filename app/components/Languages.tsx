@@ -31,7 +31,9 @@ export default function Languages(props: LanguagesProps) {
             />
             <span>
               {language.name}{" "}
-              <span className="text-slate-500">{language.percentage}%</span>
+              <span className="text-slate-500 md:block hidden">
+                {language.percentage}%
+              </span>
             </span>
           </div>
         ))}
