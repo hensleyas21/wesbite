@@ -22,19 +22,14 @@ export default function Languages(props: LanguagesProps) {
       </div>
       <div className="flex space-x-3">
         {languages.map((language) => (
-          <div className="space-x-2 flex items-center text-sm">
+          <div className="space-x-2 flex flex-row items-center text-sm">
             <div
               className="rounded-full h-2 w-2"
               style={{
                 backgroundColor: language.color,
               }}
             />
-            <span>
-              {language.name}{" "}
-              <span className="text-slate-500 md:block hidden">
-                {language.percentage}%
-              </span>
-            </span>
+            <span>{language.name}</span>
           </div>
         ))}
       </div>
