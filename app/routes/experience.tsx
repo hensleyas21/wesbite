@@ -1,5 +1,6 @@
 import { MetaFunction } from "@remix-run/react";
 import Experience from "~/components/Experience";
+import { LINKS } from "~/constants/links";
 
 export const meta: MetaFunction = () => {
   return [
@@ -13,19 +14,21 @@ export default function ExperiencePage() {
     <section id="experience">
       <h2 className="font-bold text-lg px-5 pt-5">Experience</h2>
       <Experience
-        company="Intapp"
-        position="Fullstack Software Engineer Intern"
-        description="Returning internship. Collaborated with an agile senior engineering team to redesign Intapp's Time product."
+        company="Arcfield"
+        company_link={LINKS.ARCFIELD}
+        position="Engineering Intern"
+        description="Worked on a team of six interns to create a multi-cloud failover system using AWS, Azure, and GCP."
       />
       <Experience
-        company="Intapp"
-        position="Fullstack Software Engineer Intern"
-        description="Rebuilt an compliance rules engine from Java to .NET to ensure a lawyer's time entries comply with terms derived from client contracts."
+        company="Leidos"
+        company_link={LINKS.LEIDOS}
+        position="ServiceNow Developer Intern"
+        description="Built and optimized a self-service platform with automation, smooth user experience, and clear, effective UIs."
       />
       <Experience
-        company="Behaivior"
-        position="Software Engineer Intern"
-        description="Worked with an agile engineering and AI team developing vital informatics, dashboards, health estimate algorithms, and integration/unit testing."
+        company="Grove City College"
+        position="Student Grader"
+        description="Graded assignments for Data Structures & Algorithms, Calculus I, and Calculus II."
       />
     </section>
   );

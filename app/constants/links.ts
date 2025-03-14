@@ -9,8 +9,8 @@ export const LINKS = Object.freeze({
   GITHUB_HYPUR: "https://github.com/LGmatrix13/hypur",
   GITHUB_STUDDY_BUDDY: "https://github.com/LGmatrix13/study-buddy-android",
   GITHUB_NARRO: "https://github.com/LGmatrix13/narro",
-  LINKEDIN_BEHAIVIOR: "https://www.linkedin.com/company/behaivior/",
-  LINKEDIN_INTAPP: "https://www.linkedin.com/company/intapp/",
+  ARCFIELD: "https://www.arcfield.com/",
+  LEIDOS: "https://www.leidos.com/",
   GCC: "https://gcc.edu",
   RESUME: "/resume.pdf",
 });
