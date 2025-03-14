@@ -14,15 +14,19 @@ export default function ProjectsPage() {
     <section id="projects">
       <h2 className="font-bold text-lg px-5 pt-5">Projects</h2>
       <Project
-        name="Hymn Together"
-        description="Native iOS app for listening, sharing, and saving hymns."
-        github={LINKS.GITHUB_HYMN_TOGETHER}
+        name="Vivo"
+        description="A mobile-first web application for residence life reporting and staff management. Built for Grove City College's Residence Life department."
         languages={[
           {
-            name: "Swift",
-            percentage: 100,
-            color: "#f05138",
+            name: "TypeScript",
+            percentage: 98.9,
+            color: "#3178c6",
           },
+          {
+            name: "Other",
+            percentage: 1.1,
+            color: "#ededed",
+          }
         ]}
       />
       <Project
@@ -53,53 +57,43 @@ export default function ProjectsPage() {
         ]}
       />
       <Project
-        name="Study Buddy"
-        description="Native android app for generating flashcards with AI for busy students."
-        github={LINKS.GITHUB_STUDDY_BUDDY}
+        name="Scheduling App"
+        description="Developed a course scheduling app in Java using Agile methodology, featuring an advanced heuristic-based search system for efficient data navigation."
+        github={LINKS.GITHUB_GCC_SCHEDULER}
         languages={[
           {
-            name: "Kotlin",
+            name: "Java",
             percentage: 100,
-            color: "#A97BFF",
+            color: "#b07219",
           },
         ]}
       />
       <Project
-        name="Narro"
-        description="Fullstack web application for AI generated madlibs."
-        github={LINKS.GITHUB_NARRO}
+        name="NFL Play Predictor"
+        description="Anaylzed a variety of data from the NFL to create a model to predict future plays."
+        github={LINKS.GITHUB_NFL_PLAY_PREDICTOR}
+        languages={[
+          {
+            name: "Jupyter Notebook",
+            percentage: 82.4,
+            color: "#da5b0b",
+          },
+          {
+            name: "Python",
+            percentage: 17.6,
+            color: "#3572a5",
+          },
+        ]}
+      />
+      <Project
+        name="Longest Increasing Subsequence"
+        description="Analyzed longest increasing subsequence algorithms, optimizing binary search for edge cases and reconstructing the sequences."
+        github={LINKS.GITHUB_LIS}
         languages={[
           {
             name: "Python",
-            percentage: 47.4,
+            percentage: 100,
             color: "#3572a5",
-          },
-          {
-            name: "HTML",
-            percentage: 42.5,
-            color: "#e34c26",
-          },
-          {
-            name: "JS",
-            percentage: 10.1,
-            color: "#f1e05a",
-          },
-        ]}
-      />
-      <Project
-        name="Hypur"
-        description="JavaScript package to bring flexible reactivity to server-side applications."
-        github={LINKS.GITHUB_HYPUR}
-        languages={[
-          {
-            name: "TypeScript",
-            percentage: 69.4,
-            color: "#3178c6",
-          },
-          {
-            name: "JS",
-            percentage: 28.5 + 2.1,
-            color: "#f1e05a",
           },
         ]}
       />
