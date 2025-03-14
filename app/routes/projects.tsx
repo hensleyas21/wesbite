@@ -87,7 +87,7 @@ export default function ProjectsPage() {
       />
       <Project
         name="Longest Increasing Subsequence"
-        description="Analyzed longest increasing subsequence algorithms, optimizing binary search for edge cases and reconstructing the sequences."
+        description="Investigated longest increasing subsequence algorithms, optimizing binary search for edge cases and reconstructing the sequences."
         github={LINKS.GITHUB_LIS}
         languages={[
           {
