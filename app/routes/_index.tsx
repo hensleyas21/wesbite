@@ -1,4 +1,4 @@
-import { redirect, type MetaFunction } from "@remix-run/node";
+import { redirect, MetaFunction } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
   return [
