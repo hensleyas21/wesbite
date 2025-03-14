@@ -3,7 +3,7 @@ import { redirect, MetaFunction } from "@remix-run/react";
 export const meta: MetaFunction = () => {
   return [
     { title: "Austin Hensley" },
-    { name: "Austin Hensley"},
+    { name: "Austin Hensley", content: "About Me" },
   ];
 };
 

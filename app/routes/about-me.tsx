@@ -1,5 +1,13 @@
+import { MetaFunction } from "@remix-run/react";
 import { Book, Code } from "~/components/Icons";
 import Service from "~/components/Service";
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Austin Hensley" },
+    { name: "Austin Hensley", content: "About Me" },
+  ];
+};
 
 export default function AboutMePage() {
   return (
