@@ -75,12 +75,12 @@ export default function ProjectsPage() {
         languages={[
           {
             name: "Jupyter Notebook",
-            percentage: 82.4,
+            percentage: 81.4,
             color: "#da5b0b",
           },
           {
             name: "Python",
-            percentage: 17.6,
+            percentage: 18.6,
             color: "#3572a5",
           },
         ]}
