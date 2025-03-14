@@ -1,5 +1,13 @@
+import { MetaFunction } from "@remix-run/react";
 import Project from "~/components/Project";
 import { LINKS } from "~/constants/links";
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Austin Hensley - Projects" },
+    { name: "Austin Hensley - Projects", content: "Projects" },
+  ];
+};
 
 export default function ProjectsPage() {
   return (

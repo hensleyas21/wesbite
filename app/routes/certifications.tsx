@@ -1,5 +1,14 @@
+import { MetaFunction } from "@remix-run/react";
 import { Book, Code } from "~/components/Icons";
 import Service from "~/components/Service";
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Austin Hensley - Certifications" },
+    { name: "Austin Hensley - Certifications", content: "Certifications" },
+  ];
+};
+
 
 export default function CertificationsPage() {
   return (
