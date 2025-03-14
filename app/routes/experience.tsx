@@ -27,6 +27,7 @@ export default function ExperiencePage() {
       />
       <Experience
         company="Grove City College"
+        company_link={LINKS.GCC}
         position="Student Grader"
         description="Graded assignments for Data Structures & Algorithms, Calculus I, and Calculus II."
       />

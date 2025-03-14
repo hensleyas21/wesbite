@@ -16,7 +16,7 @@ export default function Experience({
       <div className="space-y-2">
         <div className="space-y-1">
           <h2 className="font-medium">
-            {company_link ? <a href={company_link}>{company}</a> : company}
+            {company_link ? <a href={company_link} target="_blank" rel="noopener noreferrer">{company}</a> : company}
           </h2>
           <h3 className="font-medium text-sm">{position}</h3>
         </div>

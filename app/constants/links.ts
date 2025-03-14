@@ -1,5 +1,3 @@
-import { Email, GitHub } from "~/components/Icons";
-
 export const LINKS = Object.freeze({
   EMAIL: "mailto:me@austinhensley.com",
   LINKEDIN: "https://linkedin.com/in/austin-hensley",
@@ -10,6 +8,6 @@ export const LINKS = Object.freeze({
   GITHUB_NFL_PLAY_PREDICTOR: "https://github.com/hensleyas21/dsciCapstone",
   ARCFIELD: "https://www.arcfield.com/",
   LEIDOS: "https://www.leidos.com/",
-  GCC: "https://gcc.edu",
+  GCC: "https://www.gcc.edu",
   RESUME: "/resume.pdf",
 });
