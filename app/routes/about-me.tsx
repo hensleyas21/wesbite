@@ -4,8 +4,8 @@ import Service from "~/components/Service";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Austin Hensley" },
-    { name: "Austin Hensley", content: "About Me" },
+    { title: "Austin Hensley - About Me" },
+    { name: "Austin Hensley - About Me", content: "About Me" },
   ];
 };
 

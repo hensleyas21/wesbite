@@ -1,4 +1,12 @@
+import { MetaFunction } from "@remix-run/react";
 import Experience from "~/components/Experience";
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Austin Hensley - Experience" },
+    { name: "Austin Hensley - Experience", content: "Experience" },
+  ];
+};
 
 export default function ExperiencePage() {
   return (

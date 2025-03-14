@@ -9,7 +9,6 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-
 export default function CertificationsPage() {
   return (
     <section>
