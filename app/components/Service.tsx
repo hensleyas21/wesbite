@@ -1,3 +1,5 @@
+import { LINKS } from "~/constants/links";
+
 interface ServiceProps {
   name: string;
   description: string;
@@ -12,7 +14,7 @@ export default function Service({ name, description, Icon }: ServiceProps) {
         <h2 className="font-medium">{name}</h2>
       </div>
       <p>{description}</p>
-      <a href="mailto:me@liamgrossman.com">
+      <a href={LINKS.EMAIL}>
         <button className="h-7 text-sm bg-blue-600 text-white px-3 rounded-full">
           Inquire Interest
         </button>

@@ -1,6 +1,9 @@
+import { Email } from "~/components/Icons";
+
 export const LINKS = Object.freeze({
-  LINKEDIN: "https://linkedin.com/in/liam-grossman",
-  GITHUB: "https://github.com/LGmatrix13",
+  EMAIL: "mailto:hensleas21@icloud.com",
+  LINKEDIN: "https://linkedin.com/in/austin-hensley",
+  GITHUB: "https://github.com/hensleyas21",
   GITHUB_PADLOCK: "https://github.com/LGmatrix13/padlock",
   GITHUB_HYMN_TOGETHER: "https://github.com/LGmatrix13/hymn-together-2",
   GITHUB_HYPUR: "https://github.com/LGmatrix13/hypur",

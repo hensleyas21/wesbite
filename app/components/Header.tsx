@@ -1,6 +1,6 @@
 import { Link, useLocation } from "@remix-run/react";
 import { LINKS } from "~/constants/links";
-import { GitHub, Linkedin } from "./Icons";
+import { Email, GitHub, Linkedin } from "./Icons";
 
 export default function Hero() {
   const location = useLocation(); // Get the current path
@@ -10,10 +10,10 @@ export default function Hero() {
       <div className="space-y-5">
         <div>
           <img
-            src="/liam_grossman.jpg"
+            src="/austin_hensley.PNG"
             className="w-28 h-28 rounded-full mb-5"
           />
-          <h1 className="text-lg font-bold mb-3">👋 Hi, I'm Liam!</h1>
+          <h1 className="text-lg font-bold mb-3">👋 Hi, I'm Austin!</h1>
           <p>
             I'm a senior Computer Science and Data Science student at{" "}
             <a href={LINKS.GCC} target="_blank" rel="noopener noreferrer">
@@ -65,6 +65,9 @@ export default function Hero() {
         </a>
         <a href={LINKS.GITHUB} target="_blank" rel="noopener noreferrer">
           <GitHub className="w-5 h-5" />
+        </a>
+        <a href={LINKS.EMAIL} target="_blank" rel="noopener noreferrer">
+          <Email className="w-5 h-5" />
         </a>
       </div>
     </aside>

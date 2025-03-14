@@ -48,6 +48,28 @@ export function Linkedin(props: IIconProps) {
   );
 }
 
+export function Email(props: IIconProps) {
+  const { className } = props;
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+      <path d="M3 7l9 6l9 -6" />
+    </svg>
+  );
+}
+
 export function Code(props: IIconProps) {
   const { className } = props;
 
@@ -114,4 +136,5 @@ export function Dot(props: IIconProps) {
       <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" />
     </svg>
   );
+  
 }
