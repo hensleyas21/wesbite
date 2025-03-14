@@ -1,10 +1,10 @@
 import { Book, Code } from "~/components/Icons";
 import Service from "~/components/Service";
 
-export default function ServicesPage() {
+export default function CertificationsPage() {
   return (
     <section>
-      <h1 className="font-bold text-lg px-5 pt-5">Services</h1>
+      <h1 className="font-bold text-lg px-5 pt-5">Certifications</h1>
       <Service
         name="Software Consultation"
         description="Help on artitecting software and design descisions."

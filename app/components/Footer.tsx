@@ -9,11 +9,10 @@ export default function Footer() {
       <a href={LINKS.LINKEDIN} target="_blank" rel="noopener noreferrer">
         <p className="hover:text-gray-800">LinkedIn</p>
       </a>
-      <p>bruh</p>
       <a href={LINKS.RESUME} target="_blank" rel="noopener noreferrer">
         <p className="hover:text-gray-800">Résumé</p>
       </a>
-      <a href="mailto:hensleas21@icloud.com">
+      <a href={LINKS.EMAIL}>
         <p className="hover:text-gray-800">Email</p>
       </a>
     </div>
