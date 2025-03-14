@@ -1,7 +1,7 @@
 import { Email } from "~/components/Icons";
 
 export const LINKS = Object.freeze({
-  EMAIL: "mailto:hensleas21@icloud.com",
+  EMAIL: "mailto:me@austinhensley.com",
   LINKEDIN: "https://linkedin.com/in/austin-hensley",
   GITHUB: "https://github.com/hensleyas21",
   GITHUB_PADLOCK: "https://github.com/LGmatrix13/padlock",
