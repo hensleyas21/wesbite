@@ -13,7 +13,7 @@ export default function Hero() {
             src="/austin_hensley.PNG"
             className="w-28 h-28 rounded-full mb-5"
           />
-          <h1 className="text-lg font-bold mb-3">👋 Hi, I'm Austin!</h1>
+          <h1 className="text-lg font-bold mb-3">Hi, I'm Austin Hensley!</h1>
           <p>
             I'm a senior Computer Science and Data Science student at{" "}
             <a href={LINKS.GCC} target="_blank" rel="noopener noreferrer">
