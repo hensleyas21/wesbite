@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="space-y-5">
         <div>
           <img
-            src="/austin_hensley.png"
+            src="/austin_hensley.jpg"
             className="w-28 h-28 rounded-full mb-5"
           />
           <h1 className="text-lg font-bold mb-3">Hi, I'm Austin Hensley!</h1>
