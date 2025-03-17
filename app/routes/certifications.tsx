@@ -14,14 +14,14 @@ export default function CertificationsPage() {
     <section>
       <h1 className="font-bold text-lg px-5 pt-5">Certifications</h1>
       <Certification
-        name="Database Specialist"
-        description="Earned certificate through dual enrollment at Northern Virginia Community College while in high school."
-        Icon={Database}
-      />
-      <Certification
         name="AWS Certified Cloud Practitioner"
         description="Demonstrated foundational expertise in AWS Cloud services, security, pricing, and best practices."
         Icon={AWS}
+      />
+      <Certification
+        name="Database Specialist"
+        description="Earned certificate through dual enrollment at Northern Virginia Community College while in high school."
+        Icon={Database}
       />
     </section>
   );
