@@ -1,6 +1,7 @@
 import { MetaFunction } from "@remix-run/react";
 import { AWS, Database } from "~/components/Icons";
 import Certification from "~/components/Certification";
+import { LINKS } from "~/constants/links";
 
 export const meta: MetaFunction = () => {
   return [
@@ -16,6 +17,7 @@ export default function CertificationsPage() {
       <Certification
         name="AWS Certified Cloud Practitioner"
         description="Demonstrated foundational expertise in AWS Cloud services, security, pricing, and best practices."
+        link={LINKS.AWS_CCP_CERT}
         Icon={AWS}
       />
       <Certification
