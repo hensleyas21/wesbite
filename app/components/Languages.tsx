@@ -1,8 +1,8 @@
-interface LanguagesProps {
+export interface LanguagesProps {
   languages: {
     name: string;
     color: string;
-    percentage: number;
+    weight: number;
   }[];
 }
 
@@ -14,7 +14,7 @@ export default function Languages(props: LanguagesProps) {
         {languages.map((language) => (
           <div
             style={{
-              width: `${language.percentage}%`,
+              width: `${language.weight}%`,
               backgroundColor: language.color,
             }}
           />
