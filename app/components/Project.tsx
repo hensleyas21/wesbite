@@ -6,7 +6,6 @@ interface IProjectProps {
   github?: string;
   languages: {
     name: string;
-    color: string;
     weight: number;
   }[];
 }

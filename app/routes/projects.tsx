@@ -36,12 +36,10 @@ export default function ProjectsPage() {
           {
             name: "TypeScript",
             weight: 98.9,
-            color: "#3178c6",
           },
           {
             name: "Other",
             weight: 1.1,
-            color: "#ededed",
           }
         ]}
       />
