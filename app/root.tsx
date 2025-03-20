@@ -10,6 +10,7 @@ import type { LinksFunction } from "@remix-run/node";
 import "@fontsource-variable/inter";
 import "./tailwind.css";
 import Header from "./components/Header";
+import { Analytics } from "@vercel/analytics/remix"
 
 export const links: LinksFunction = () => [];
 
@@ -31,6 +32,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <div className="md:w-2/3">{children}</div>
           </div>
         </main>
+        <Analytics />
         <ScrollRestoration />
         <Scripts />
       </body>
