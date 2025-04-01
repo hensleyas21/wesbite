@@ -31,7 +31,7 @@ export default function ProjectsPage() {
       <h2 className="font-bold text-lg px-5 pt-5">Projects</h2>
       <Project
         name="Vivo"
-        description="A mobile-first web application for residence life reporting and staff management. Built for Grove City College's Residence Life department."
+        description="A mobile-first web application for reports, staff management, and analytics. Built for Grove City College's Residence Life department."
         languages={[
           {
             name: "TypeScript",
